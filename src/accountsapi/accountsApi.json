@@ -1,0 +1,257 @@
+{
+  "accounts": [
+    {
+      "id":
+      "0eb7acfd6fa3449676947c9521311cfce618bf9129ac5ac07ba30c76843e0f65fddb",
+      "provider": {
+        "title": "Lloyds",
+        "icon": "Favicon_lloyds.svg",
+        "account_number": "9879-2345",
+        "sort_code": "20-34-67",
+        "description": "Business Current Account"
+      },
+      "balance": {
+        "amount": 10461.32,
+        "currency_iso": "GBP"
+      },
+      "transactions": [
+        {
+          "id":
+          "13acb877dc4d8030c5dacbde33d3496a2ae3asdc000db4c793bda9c3228baca1a28",
+          "date": "2018-07-05",
+          "description": "Staples",
+          "category_title": "Premises",
+          "amount": {
+            "value": -57,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "dbad80ded0d2d3419749a8dd391a61bc1b5970bdfffc27f254568ec86e5c0fa06bcc",
+          "date": "2018-07-05",
+          "description": "Bank transfer 102284",
+          "category_title": "Income",
+          "amount": {
+            "value": -366.71,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "b11de7abd717eae696d2eedca9c24e5df7652b59a7ad200d43aa88321d908694342d",
+          "date": "2018-07-05",
+          "description": "Amazon UK",
+          "category_title": "Premises",
+          "amount": {
+            "value": -145,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "a483bdde46390271ff377949455817a71d3cdf11a3492b2c921477b751265ee9aba4",
+          "date": "2018-07-05",
+          "description": "Transport for London",
+          "category_title": "Expenses",
+          "amount": {
+            "value": -1404.07,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "c09f785b61c0fa361dc143b7331551d8b4cc58349774fae6f61d696564bbebd74db0",
+          "date": "2018-07-05",
+          "description": "Books and Periodicals",
+          "category_title": "Stocks / Materials",
+          "amount": {
+            "value": -3587.87,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "da972f75ba1b4da81c93dcffeedf388f5c85e76642b2d41089d715b428b580dc469a",
+          "date": "2018-07-05",
+          "description": "O2 Phone and Internet",
+          "category_title": "Technology",
+          "amount": {
+            "value": -89,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "73f0fc40b287cd4e3ca0f8134b7dd065881e30b1e4b9eddcba06a281d2b435392698",
+          "date": "2018-07-05",
+          "description": "John Bishop & Sons",
+          "category_title": "Stock / Materials",
+          "amount": {
+            "value": -456,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "7580594e47b09ce6d22addaccb2fcf6c4f6297e616c0cecbf8acc902e1813a161816",
+          "date": "2018-07-04",
+          "description": "British Gas",
+          "category_title": "Premises",
+          "amount": {
+            "value": -987,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "655202211331ea3897c81b0667971311360d457eed535e653c6126711b7a1f1d3d35",
+          "date": "2018-07-04",
+          "description": "Charlie HR",
+          "category_title": "Human Resources",
+          "amount": {
+            "value": -99.89,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "4c4376c987b1f60c925466945a945ada89b1a6ae29e0bf99aa0bf997395ab5bdb7d3",
+          "date": "2018-07-04",
+          "description": "McKinsey Group",
+          "category_title": "Financial Services",
+          "amount": {
+            "value": -6534.07,
+            "currency_iso": "GBP"
+          }
+        }
+      ]
+    },
+    {
+      "id":
+      "f85cfbc483b4ad1c2ca8aa96bd777eb5eb00e483fca950d8472aafa4566ca0f0efc5",
+      "provider": {
+        "title": "American Express",
+        "icon": "Favicon_amex.svg",
+        "card_number": "**** ****** *0005",
+        "description": "Credit card"
+      },
+      "balance": {
+        "amount": -1250.85,
+        "currency_iso": "GBP"
+      },
+      "transactions": [
+        {
+          "id":
+          "c20e70f1c2a31f36c252b8518ad745c200c9900b861e17a4eb9e0abb75562d4fdd3b",
+          "date": "2018-07-05",
+          "description": "The Long White Cloud",
+          "category_title": "Payments",
+          "amount": {
+            "value": -76.06,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "4eb53d62c82b5c79cd3c6421f300eb07ab6b1f75ee4b7fdd47eaee55088f3b9271d1",
+          "date": "2018-07-04",
+          "description": "Amazon UK",
+          "category_title": "Office Equipment",
+          "amount": {
+            "value": -1678,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "6ff529e15bea0a8c9036eff6dcd2d6fa1546b589542fa2bd0110d2e49264b889b707",
+          "date": "2018-07-04",
+          "description": "Amazon UK",
+          "category_title": "Premises",
+          "amount": {
+            "value": -145,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "93a5ce2a5a82873607f3917514a31be53b437ac0e8dc459db770e6d1ebd72a751c1d",
+          "date": "2018-07-03",
+          "description": "Dagenham Steel Ltd",
+          "category_title": "Stock & Materials",
+          "amount": {
+            "value": -1790.76,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "34f786f9548a3a8dff4d1189f76500b2737e917d5c3996afe70bfd88143bf9efca60",
+          "date": "2018-07-03",
+          "description": "Coffee Suppliers Ltd",
+          "category_title": "Office equipment",
+          "amount": {
+            "value": -89,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "9789225426e4fa222074b729ac6e0bbfe8fb6dbbec1d21a9ee748f24c8768e9f352b",
+          "date": "2018-07-03",
+          "description": "Statement June 2018",
+          "category_title": "Payments",
+          "amount": {
+            "value": 3544.9,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "0efaa570e745c444e2fcb7b995972a48555a7d962b1bef7ca386891678533382721c",
+          "date": "2018-07-03",
+          "description": "Ebay",
+          "category_title": "Shopping",
+          "amount": {
+            "value": -760.45,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "c8e306c2a62c98e6fb3eef925f627ba940c8beebca3ac14ac911b36fd10fb9c0a84a",
+          "date": "2018-07-03",
+          "description": "Asda",
+          "category_title": "Shopping",
+          "amount": {
+            "value": -51.19,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "051ea3de7e32086e24a29a8fbbb575a48964f12b95016679bf7bb8a004fd08813d01",
+          "date": "2018-07-03",
+          "description": "Chicago Rib Shack",
+          "category_title": "Shopping",
+          "amount": {
+            "value": -51.19,
+            "currency_iso": "GBP"
+          }
+        },
+        {
+          "id":
+          "6616af510e42704b172260140e98d7405617a5001b37b0f7fa7abadaba44860990b9",
+          "date": "2018-07-03",
+          "description": "John Bishop & Sons",
+          "category_title": "Stock / Materials",
+          "amount": {
+            "value": -456,
+            "currency_iso": "GBP"
+          }
+        }
+      ]
+    }
+  ]
+}

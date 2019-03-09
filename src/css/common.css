@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, p, h1,h2,h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+a {
+  background-color: transparent;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+small {
+  font-size: 80%;
+}
+img {
+  border-style: none;
+}
+
+button{ /* 1 */
+  text-transform: none;
+  overflow: visible;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+[hidden] {
+  display: none;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F9F9F9;
+  font-size: .8125rem;
+  line-height: 1rem;
+  color: #40434D;
+}
+
+/* no grid support*/
+.sidebar {
+  float: left;
+  width: 19.1489%;
+}
+.content {
+  float: right;
+  width: 79.7872%;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: unset;
+  grid-gap: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+@supports (display: grid) {
+  .container > * {
+    width: auto;
+    margin: 0;
+  }
+}
+
+
+.accounts-list,
+.content{
+  background-color: #fff;
+  margin-top: 2rem;
+}
+
+
+.sidebar h1{
+  font-size: .95rem;
+  line-height: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.accounts-list ul{
+  padding-left: 0;
+  list-style: none;
+}
+.accounts-list li{
+  border-top: 1px solid #EBEFF2;
+  border-right: 1px solid #EBEFF2;
+  border-bottom: 1px solid #EBEFF2;
+  border-left: 1px solid #EBEFF2;
+}
+.accounts-list li + li{
+  border-top: none;
+}
+.button--account{
+  text-align: left;
+  padding-right: 1rem;
+  background-color: #fff;
+}
+.button--account,
+.button--account .button__wrapper {
+  width: 100%;
+}
+.button--account .button__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 64px;
+}
+.account-img{
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+.account-id{
+  display: flex;
+  align-items: center;
+}
+.account-id h2{
+  font-size: .825rem;
+}
+.account-id small{
+  display: block;
+  font-size: .7rem;
+  color: #9EA1AC;
+  font-weight: 400;
+  margin-top: .5rem;
+}
+.account-id,
+.account-status{
+  margin-top: .75rem;
+}
+.account-status .positive{
+  color:#5CC781;
+}
+.account-status .negative{
+  color: #DB1C13;
+}
+
+button{
+  cursor: pointer;
+  border: 0;
+  position: relative;
+}
+button.active{
+  background-color: #FEF7F4;
+}
+
+button.active::before{
+  content: '';
+  background-color: #F2662A;
+  width: .25rem;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.account-detail header{
+  background-color: #000002;
+  color: #fff;
+  padding: 2.5rem 3rem 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.account-detail__balance h1{
+  font-size: 1.875rem;
+  line-height: 2rem;
+  margin: 0;
+}
+.account-detail__balance h1,
+.transaction p,
+.sidebar h1{
+  font-weight: 600;
+}
+.account-detail__name{
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.account-detail__desc,
+.account-detail__balance p{
+  font-size: .95rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.account-detail__info{
+  text-align: right;
+}
+.transactions h3{
+  background-color: #E5E5E5;
+  margin: 0;
+  padding: .5rem 1rem;
+  color: #797979;
+  font-size: .75rem;
+}
+.transactions-list {
+  list-style: none;
+  padding-left: 1rem;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.transaction p{
+  margin-bottom: .75rem;
+  margin-top: .75rem;
+}
+.transactions-list li:not(:last-of-type)::after{
+  content: '';
+  background-color:#EBEFF2;
+  height: 1px;
+  width: 100%;
+}
+.transaction__name,
+.transaction__figure{
+  flex:0 0 50%;
+}
+.transaction__figure{
+  padding-right: 1rem;
+  text-align: right;
+}
+
+.transaction__name small{
+  display: block;
+  color:#9EA1AC;
+  margin-top: .5rem;
+  font-weight: normal;
+}
+
+
+
+
+
